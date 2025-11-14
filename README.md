@@ -21,19 +21,3 @@ Follow these simple steps to view a local copy of the project:
 [text](https://ferrnd.github.io/military-infantry-page-lessons/)
 
 ---
-
-## 🤝 Contribution
-
-Feel free to suggest improvements, fix bugs, or add more details regarding the theme!
-
-1.  Fork the Project.
-2.  Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
-3.  Commit your Changes (`git commit -m 'feat: Add amazing feature'`).
-4.  Push to the Branch (`git push origin feature/AmazingFeature`).
-5.  Open a Pull Request.
-
----
-
-## 👤 Author
-
-* **Your Name/Username** - [Link to your LinkedIn or GitHub]
