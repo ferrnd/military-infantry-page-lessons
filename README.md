@@ -18,6 +18,6 @@ This project was built using basic web technologies, with a focus on clean conte
 Follow these simple steps to view a local copy of the project:
 
 1.  **access this link:**
-[text](https://ferrnd.github.io/military-infantry-page-lessons/)
+[military-infantry-page](https://ferrnd.github.io/military-infantry-page-lessons/)
 
 ---
