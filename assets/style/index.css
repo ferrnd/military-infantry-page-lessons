@@ -25,6 +25,11 @@ body {
     color: var(--cor-texto); 
     background-color: var(--cor-fundo); 
     line-height: 1.6;
+    
+    /* 🚀 Alterações para Sticky Footer (Rodapé Colado) */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o body ocupe, no mínimo, a altura total da viewport */
 }
 
 a {
@@ -98,20 +103,25 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 80px; /* Altura ajustada */
     width: 100%;
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: white; /* Cor de fundo ajustada */
+    color: rgb(13, 77, 13); /* Cor do texto ajustada */
     text-align: center;
     font-size: 0.9rem;
-    margin-top: 315px;
+    font-weight: 500;
+    /* margin-top: 315px; REMOVIDO pelo Flexbox */
+}
+
+.rodape p {
+    margin: 0; 
 }
 
 .rodape a {
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
 }
 .rodape a:hover {
-    color: var(--cor-destaque);
+    color: var(--cor-secundaria);
 }
 
 /* --- Formas Líquidas (Liquid Blob Shapes) - DIMENSÕES MAIORES E MAIS RÁPIDAS --- */
@@ -262,6 +272,7 @@ a:hover {
     display: flex;
     gap: 40px;
     align-items: center;
+    flex-grow: 1; /* Novo: Faz o conteúdo principal ocupar o espaço restante */
 }
 
 .home-layout {
@@ -320,7 +331,7 @@ a:hover {
 }
 
 .stat-item {
-      margin-bottom: 45px;
+     margin-bottom: 45px;
 }
 
 .stat-item span {
